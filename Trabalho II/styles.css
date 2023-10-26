@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+}
+
+.custom-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%; 
+    width: 18rem;
+}
+
+.custom-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.full-width-image {
+    max-height: 100%;
+    width: auto;
+}
+
+.title {
+    flex: 1;
+    color: #0f4d4f;
+}
+
+.subtitle {
+    color: #a1bd97;
+}
+
+.description {
+    color: #808080;
+}
+
+.btn-custom {
+    background-color: #0f4d4f;
+    border-color: #0f4d4f; 
+    color: #ffffff;
+    align-items: center;
+}
+
+.section {
+    margin-bottom: 50px;
+}
